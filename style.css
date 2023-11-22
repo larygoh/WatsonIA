@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,700;1,400&family=Poppins:wght@300;400;600&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: quicksand;
+    font-weight: 300;
+}
+
+.navbar {
+    color: #190019;
+    font-weight: 200;
+    font-family: poppins !important;
+    
+}
+
+.img-bg {
+    background-image: url("./venv/images/imgbg2.jpg");
+    min-height: 100%;
+    min-width: 1024px;
+    width: 100%;
+    height: auto;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -2;
+}
+
+@media screen and (max-width: 1024px) { 
+  img.bg {
+    left: 50%;
+    margin-left: -512px;  
+  }
+}
+
+.h1 {
+    font-size: 80px;
+}
+
+.h2 {
+    font-size: 40px;
+}
+
+.h3 {
+    font-size: 20px; 
+}
+
+.txt-help {
+    color:#190019;
+    margin-top: 80px;
+}
+
+.txt {
+    color:#190019;
+    margin-top: 130px;
+}
+
+.botao {
+    border-radius: 20px;
+    background-color: #753f8c;
+    color: #fff;
+    padding: 8px 8px 8px 8px;
+    font-size: 15px;
+    font-family: manrope;
+    border: 0;
+}
+
+.botao-2 {
+    border-radius: 20px;
+    border-color: #753f8c;
+    padding: 8px 8px 8px 8px;
+    font-family: manrope;
+    font-size: 15px;
+    background-color: #d9cedd;
+    color: #190019;
+    font-size: 15px;
+}
